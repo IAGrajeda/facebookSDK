@@ -1,0 +1,36 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+dimen fab_margin
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id FirstFragment
+id SecondFragment
+id action_FirstFragment_to_SecondFragment
+id action_SecondFragment_to_FirstFragment
+id action_settings
+id fab
+id login_button
+id nav_graph
+id share_button
+layout activity_main
+layout facebookmain
+menu menu_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+navigation nav_graph
+string action_settings
+string app_name
+string facebook_app_id
+string facebook_client_token
+string fb_login_protocol_scheme
+string first_fragment_label
+string lorem_ipsum
+string next
+string previous
+string second_fragment_label
+style Base.Theme.FacebookSDK
+style Theme.FacebookSDK
+xml backup_rules
+xml data_extraction_rules

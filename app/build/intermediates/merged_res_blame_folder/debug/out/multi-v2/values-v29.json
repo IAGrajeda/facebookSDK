@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.facebooksdk.app-mergeDebugResources-30:/values-v29/values-v29.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\aleja\\AndroidStudioProjects\\facebookSDK\\app\\src\\main\\res\\values-v29\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "64",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "436"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "377"
+                    }
+                }
+            ]
+        }
+    ]
+}

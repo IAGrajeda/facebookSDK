@@ -1,0 +1,155 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.facebooksdk"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+8-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:6:5-66
+11-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:6:22-64
+12
+13    <application
+13-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:11:5-52:19
+14        android:allowBackup="true"
+14-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:12:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.7.0] C:\Users\aleja\.gradle\caches\transforms-3\4825226d7bdc18dc642f18a8a048b277\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+16        android:dataExtractionRules="@xml/data_extraction_rules"
+16-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:13:9-65
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:fullBackupContent="@xml/backup_rules"
+19-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:14:9-54
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:15:9-43
+21        android:label="@string/app_name"
+21-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:16:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:17:9-54
+23        android:supportsRtl="true"
+23-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:18:9-35
+24        android:testOnly="true"
+25        android:theme="@style/Theme.FacebookSDK" >
+25-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:19:9-49
+26        <activity
+26-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:21:9-30:20
+27            android:name="com.example.facebooksdk.MainActivity"
+27-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:22:13-41
+28            android:exported="true"
+28-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:23:13-36
+29            android:label="@string/app_name"
+29-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:24:13-45
+30            android:theme="@style/Theme.FacebookSDK" >
+30-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:25:13-53
+31            <intent-filter>
+31-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:26:13-29:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:27:17-69
+32-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:27:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:28:17-77
+34-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:28:27-74
+35            </intent-filter>
+36        </activity>
+37
+38        <meta-data
+38-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:31:9-107
+39            android:name="com.facebook.sdk.ApplicationId"
+39-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:31:20-65
+40            android:value="@string/facebook_app_id" />
+40-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:31:66-105
+41        <meta-data
+41-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:32:9-111
+42            android:name="com.facebook.sdk.ClientToken"
+42-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:32:20-63
+43            android:value="@string/facebook_client_token" />
+43-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:32:64-109
+44
+45        <activity
+45-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:35:9-38:48
+46            android:name="com.facebook.FacebookActivity"
+46-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:35:19-63
+47            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+47-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:36:13-113
+48            android:label="@string/app_name"
+48-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:38:13-45
+49            android:theme="@style/com_facebook_activity_theme" />
+49-->[com.facebook.android:facebook-common:4.42.0] C:\Users\aleja\.gradle\caches\transforms-3\b736c1c4d1ffe56e25764a762e715591\transformed\jetified-facebook-common-4.42.0\AndroidManifest.xml:32:13-63
+50        <activity
+50-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:39:9-48:20
+51            android:name="com.facebook.CustomTabActivity"
+51-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:40:13-58
+52            android:exported="true" >
+52-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:41:13-36
+53            <intent-filter>
+53-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:42:13-47:29
+54                <action android:name="android.intent.action.VIEW" />
+54-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:43:17-69
+54-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:43:25-66
+55
+56                <category android:name="android.intent.category.DEFAULT" />
+56-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:44:17-76
+56-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:44:27-73
+57                <category android:name="android.intent.category.BROWSABLE" />
+57-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:45:17-78
+57-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:45:27-75
+58
+59                <data android:scheme="@string/fb_login_protocol_scheme" />
+59-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:46:17-75
+59-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:46:23-72
+60            </intent-filter>
+61        </activity>
+62
+63        <provider
+63-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:49:9-51:38
+64            android:name="com.facebook.FacebookContentProvider"
+64-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:50:13-64
+65            android:authorities="com.facebook.app.FacebookContentProvider507197744284419"
+65-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:49:19-96
+66            android:exported="true" />
+66-->C:\Users\aleja\AndroidStudioProjects\facebookSDK\app\src\main\AndroidManifest.xml:51:13-36
+67
+68        <activity android:name="com.facebook.CustomTabMainActivity" />
+68-->[com.facebook.android:facebook-common:4.42.0] C:\Users\aleja\.gradle\caches\transforms-3\b736c1c4d1ffe56e25764a762e715591\transformed\jetified-facebook-common-4.42.0\AndroidManifest.xml:33:9-71
+68-->[com.facebook.android:facebook-common:4.42.0] C:\Users\aleja\.gradle\caches\transforms-3\b736c1c4d1ffe56e25764a762e715591\transformed\jetified-facebook-common-4.42.0\AndroidManifest.xml:33:19-68
+69        <!--
+70         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+71         with the application context. This config is merged in with the host app's manifest,
+72         but there can only be one provider with the same authority activated at any given
+73         point; so if the end user has two or more different apps that use Facebook SDK, only the
+74         first one will be able to use the provider. To work around this problem, we use the
+75         following placeholder in the authority to identify each host application as if it was
+76         a completely different provider.
+77        -->
+78        <provider
+78-->[com.facebook.android:facebook-core:4.42.0] C:\Users\aleja\.gradle\caches\transforms-3\781c5715219b3e6227d7520a434d614c\transformed\jetified-facebook-core-4.42.0\AndroidManifest.xml:39:9-42:40
+79            android:name="com.facebook.internal.FacebookInitProvider"
+79-->[com.facebook.android:facebook-core:4.42.0] C:\Users\aleja\.gradle\caches\transforms-3\781c5715219b3e6227d7520a434d614c\transformed\jetified-facebook-core-4.42.0\AndroidManifest.xml:40:13-70
+80            android:authorities="com.example.facebooksdk.FacebookInitProvider"
+80-->[com.facebook.android:facebook-core:4.42.0] C:\Users\aleja\.gradle\caches\transforms-3\781c5715219b3e6227d7520a434d614c\transformed\jetified-facebook-core-4.42.0\AndroidManifest.xml:41:13-72
+81            android:exported="false" />
+81-->[com.facebook.android:facebook-core:4.42.0] C:\Users\aleja\.gradle\caches\transforms-3\781c5715219b3e6227d7520a434d614c\transformed\jetified-facebook-core-4.42.0\AndroidManifest.xml:42:13-37
+82
+83        <receiver
+83-->[com.facebook.android:facebook-core:4.42.0] C:\Users\aleja\.gradle\caches\transforms-3\781c5715219b3e6227d7520a434d614c\transformed\jetified-facebook-core-4.42.0\AndroidManifest.xml:44:9-50:20
+84            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+84-->[com.facebook.android:facebook-core:4.42.0] C:\Users\aleja\.gradle\caches\transforms-3\781c5715219b3e6227d7520a434d614c\transformed\jetified-facebook-core-4.42.0\AndroidManifest.xml:45:13-86
+85            android:exported="false" >
+85-->[com.facebook.android:facebook-core:4.42.0] C:\Users\aleja\.gradle\caches\transforms-3\781c5715219b3e6227d7520a434d614c\transformed\jetified-facebook-core-4.42.0\AndroidManifest.xml:46:13-37
+86            <intent-filter>
+86-->[com.facebook.android:facebook-core:4.42.0] C:\Users\aleja\.gradle\caches\transforms-3\781c5715219b3e6227d7520a434d614c\transformed\jetified-facebook-core-4.42.0\AndroidManifest.xml:47:13-49:29
+87                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+87-->[com.facebook.android:facebook-core:4.42.0] C:\Users\aleja\.gradle\caches\transforms-3\781c5715219b3e6227d7520a434d614c\transformed\jetified-facebook-core-4.42.0\AndroidManifest.xml:48:17-95
+87-->[com.facebook.android:facebook-core:4.42.0] C:\Users\aleja\.gradle\caches\transforms-3\781c5715219b3e6227d7520a434d614c\transformed\jetified-facebook-core-4.42.0\AndroidManifest.xml:48:25-92
+88            </intent-filter>
+89        </receiver>
+90    </application>
+91
+92</manifest>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">facebookSDK</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+    <string name="facebook_app_id">959514585363078+++</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">e823512c6dcd4c38a53e4d22d4ab00ee+++</string>
+
+
+</resources>
